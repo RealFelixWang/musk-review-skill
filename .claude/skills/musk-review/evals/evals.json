@@ -1,0 +1,29 @@
+{
+  "skill_name": "musk-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我用马斯克式的方式评审这个产品方案。我们要做一个 AI 会议助手，功能包括会议转录、自动总结、自动生成待办、自动发周报、销售电话评分、知识库问答、邮件起草。目标用户是 20 到 200 人的软件公司。我们想同时做 Web、Slack 和飞书。团队现在 4 个人，计划 3 个月上线。请直接一点。",
+      "expected_output": "A structured review that states the plan is over-scoped, identifies the core problem, cuts scope aggressively, and recommends one wedge plus a primary metric.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review this technical architecture with a Musk-style lens. We are designing a real-time voice AI platform for outbound sales calls. Current plan: Kubernetes on three clouds, Kafka for every event, separate Python and Node microservices for ASR, LLM orchestration, CRM sync, scoring, analytics, and billing. We expect maybe 500 concurrent calls in the first six months. Tell me where this is overbuilt and what the real bottleneck is.",
+      "expected_output": "A structured review that identifies the true bottleneck, questions multi-cloud and service sprawl, separates reversible from irreversible complexity, and recommends a simpler near-term architecture.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我像马斯克那样评审一下这个增长策略。我们做的是给独立开发者用的 AI 数据分析 SaaS，现在 MRR 2 万美元。计划同时做 SEO、联盟、YouTube、X、Reddit、Product Hunt、冷邮件和赞助播客。团队 3 个人，其中只有 1 个人全职做增长。留存一般，14 天留存 22%，试用到付费转化 3.5%。请告诉我这套增长计划哪里最不对。",
+      "expected_output": "A structured review that rejects channel sprawl, identifies retention or activation as the limiting step, and recommends a narrower growth loop with concrete metrics.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "把这个方案重写成一个更像会被批准继续做的版本。我们要做一个 AI 会议助手，功能包括会议转录、自动总结、自动生成待办、自动发周报、销售电话评分、知识库问答、邮件起草。目标用户是 20 到 200 人的软件公司。我们想同时做 Web、Slack 和飞书。团队现在 4 个人，计划 3 个月上线。",
+      "expected_output": "A rewrite that collapses the proposal to one sharp wedge, one primary entry point, one target user, explicit out-of-scope items, and a short list of success metrics.",
+      "files": []
+    }
+  ]
+}
